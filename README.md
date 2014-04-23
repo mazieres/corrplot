@@ -13,6 +13,8 @@ It takes a Pandas.DataFrame as input and returns a plot.
 from sklearn import datasets
 iris = datasets.load_iris()
 df = pd.DataFrame(iris.data, columns=iris.feature_names)
+plot = myCorrPlot(df)
+plot.show()
 ```
 
 ![corrplotIRIS](https://raw.githubusercontent.com/mazieres/corrplot/master/exampleIRIS.png "CorrPlot on IRIS")
