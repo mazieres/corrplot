@@ -15,4 +15,4 @@ iris = datasets.load_iris()
 df = pd.DataFrame(iris.data, columns=iris.feature_names)
 ```
 
-(https://raw.githubusercontent.com/mazieres/corrplot/master/exampleIRIS.png "CorrPlot on IRIS")
+![corrplotIRIS](https://raw.githubusercontent.com/mazieres/corrplot/master/exampleIRIS.png "CorrPlot on IRIS")
